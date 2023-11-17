@@ -14,13 +14,4 @@ module MyEnumerable
     each { |item| result << item if block.call(item) }
     result
   end
-
-  def filter
-    result = []
-    each { |item| result << item if yield(item) }
-    result
-  end
-
 end
-
-  
