@@ -27,4 +27,4 @@ puts list.any? {|e| e == 2} #true
 puts list.any? {|e| e == 5} #false
 
 # Test #filter
-puts "#{my_list.filter { |item| item.even? }}"
+puts "#{list.filter { |item| item.even? }}"
